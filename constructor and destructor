@@ -1,0 +1,7 @@
+class Student:
+    def __init__(self):
+        print("Object Constructed")
+    def __del__(self):
+        print("Object Destructed")
+S=Student()
+del S
