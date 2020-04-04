@@ -1,0 +1,16 @@
+class Cal:
+    def add(self, x, y):
+        return x + y
+    def sub(self, x, y):
+        return x - y
+    def mul(self, x, y):
+        return x * y
+    def div(self, x, y):
+        return x / y
+a = float(input('Enter any no. - '))
+b = float(input('Enter any no. - '))
+c=Cal()
+print('Sum is ',c.add(a,b))
+print('Sub is ',c.sub(a,b))
+print('Mul is ',c.mul(a,b))
+print('Division is ',c.div(a,b))
